@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": false,
+        "noImplicitAny": false,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "lib": [
+            "ES2017",
+            "dom"
+        ],
+        "rootDir": "app/scripts",
+        "typeRoots": [
+            "./app/tsd",
+            "./node_modules/@types",
+            "/node_modules/xrm-webapi-client/dist/WebApiClient.d.ts"
+        ],
+        "pretty": true,
+    }
+}
